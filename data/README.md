@@ -1,7 +1,8 @@
 # data
 
-`raw`: when applicable, place copies of unmodified input data here
+`original`: Unprocessed input data (include notes if input data is stored elsewhere)
 
-`temp`: place any intermediate data here 
+`output`: Fully processed data immediately ready for analysis
 
-`output`: any components of the final empirical sample
+`temp`: Intermediate objects from build process
+
