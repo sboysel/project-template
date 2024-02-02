@@ -28,5 +28,7 @@
 
 ## License
 
+As [suggested by the American Economic Association](https://www.aeaweb.org/journals/data/faq#license):
+
 - source code: BSD-3-Clause
 - data: CC-BY-4.0
