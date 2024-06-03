@@ -20,10 +20,11 @@
 │   └── slides         # copy of project slides
 ├── log              # store for log files
 ├── output           # final project outputs (e.g. tables, figures)
-└── src              # project source code
+└── src              # project source code (modules)
     ├── analysis       # code used to produce final project outputs
     ├── build          # code used to build empirical sample
-    └── explore        # code used in exploratory data analysis
+    ├── explore        # code used in exploratory data analysis
+    └── lib            # code used across modules
 ```
 
 ## License
