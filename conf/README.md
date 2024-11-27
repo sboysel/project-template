@@ -5,7 +5,7 @@ Configuration files to store user-specific settings, environment variables, and 
 ```
 conf
 ├── README.md
-├── main.tomli      # Main project settings
+├── main.toml       # Main project settings
 └── secrets.toml    # (optional) Sensitive variables. Make sure to add to gitignore
 ```
 
@@ -27,8 +27,7 @@ Configuration settings can then be imported as needed in other parts of the proj
 ```python
 from ..lib import config
 
-params = config()
-secrets = config("conf/secrets.toml")
+PARAMS = config()
 ```
 
 ## Secrets
